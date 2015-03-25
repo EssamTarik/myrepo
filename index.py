@@ -17,7 +17,7 @@ def readroute(route,args):
 			except TypeError:
 				return ['not found']
 
-	return ['hello']
+	return ['another commit']
 
 def application(environ,start_response):
 	start_response('200 OK',[('Location','http://www.google.com'),('Content-Type','text/html')])
